@@ -1,0 +1,15 @@
+E:\socialNetwork\Faroosom\Faroosom.BLL\bin\Debug\net5.0\Faroosom.BLL.deps.json
+E:\socialNetwork\Faroosom\Faroosom.BLL\bin\Debug\net5.0\Faroosom.BLL.dll
+E:\socialNetwork\Faroosom\Faroosom.BLL\bin\Debug\net5.0\ref\Faroosom.BLL.dll
+E:\socialNetwork\Faroosom\Faroosom.BLL\bin\Debug\net5.0\Faroosom.BLL.pdb
+E:\socialNetwork\Faroosom\Faroosom.BLL\bin\Debug\net5.0\Faroosom.DAL.dll
+E:\socialNetwork\Faroosom\Faroosom.BLL\bin\Debug\net5.0\Faroosom.DAL.pdb
+E:\socialNetwork\Faroosom\Faroosom.BLL\obj\Debug\net5.0\Faroosom.BLL.csproj.AssemblyReference.cache
+E:\socialNetwork\Faroosom\Faroosom.BLL\obj\Debug\net5.0\Faroosom.BLL.GeneratedMSBuildEditorConfig.editorconfig
+E:\socialNetwork\Faroosom\Faroosom.BLL\obj\Debug\net5.0\Faroosom.BLL.AssemblyInfoInputs.cache
+E:\socialNetwork\Faroosom\Faroosom.BLL\obj\Debug\net5.0\Faroosom.BLL.AssemblyInfo.cs
+E:\socialNetwork\Faroosom\Faroosom.BLL\obj\Debug\net5.0\Faroosom.BLL.csproj.CoreCompileInputs.cache
+E:\socialNetwork\Faroosom\Faroosom.BLL\obj\Debug\net5.0\Faroosom.BLL.dll
+E:\socialNetwork\Faroosom\Faroosom.BLL\obj\Debug\net5.0\ref\Faroosom.BLL.dll
+E:\socialNetwork\Faroosom\Faroosom.BLL\obj\Debug\net5.0\Faroosom.BLL.pdb
+E:\socialNetwork\Faroosom\Faroosom.BLL\obj\Debug\net5.0\Faroosom.BLL.csproj.CopyComplete

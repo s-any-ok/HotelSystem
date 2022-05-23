@@ -1,0 +1,15 @@
+E:\socialNetwork\Faroosom\Faroosom.DAL\bin\Debug\net5.0\Faroosom.DAL.deps.json
+E:\socialNetwork\Faroosom\Faroosom.DAL\bin\Debug\net5.0\Faroosom.DAL.runtimeconfig.json
+E:\socialNetwork\Faroosom\Faroosom.DAL\bin\Debug\net5.0\Faroosom.DAL.runtimeconfig.dev.json
+E:\socialNetwork\Faroosom\Faroosom.DAL\bin\Debug\net5.0\Faroosom.DAL.dll
+E:\socialNetwork\Faroosom\Faroosom.DAL\bin\Debug\net5.0\ref\Faroosom.DAL.dll
+E:\socialNetwork\Faroosom\Faroosom.DAL\bin\Debug\net5.0\Faroosom.DAL.pdb
+E:\socialNetwork\Faroosom\Faroosom.DAL\obj\Debug\net5.0\Faroosom.DAL.csproj.AssemblyReference.cache
+E:\socialNetwork\Faroosom\Faroosom.DAL\obj\Debug\net5.0\Faroosom.DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\socialNetwork\Faroosom\Faroosom.DAL\obj\Debug\net5.0\Faroosom.DAL.AssemblyInfoInputs.cache
+E:\socialNetwork\Faroosom\Faroosom.DAL\obj\Debug\net5.0\Faroosom.DAL.AssemblyInfo.cs
+E:\socialNetwork\Faroosom\Faroosom.DAL\obj\Debug\net5.0\Faroosom.DAL.csproj.CoreCompileInputs.cache
+E:\socialNetwork\Faroosom\Faroosom.DAL\obj\Debug\net5.0\Faroosom.DAL.dll
+E:\socialNetwork\Faroosom\Faroosom.DAL\obj\Debug\net5.0\ref\Faroosom.DAL.dll
+E:\socialNetwork\Faroosom\Faroosom.DAL\obj\Debug\net5.0\Faroosom.DAL.pdb
+E:\socialNetwork\Faroosom\Faroosom.DAL\obj\Debug\net5.0\Faroosom.DAL.genruntimeconfig.cache

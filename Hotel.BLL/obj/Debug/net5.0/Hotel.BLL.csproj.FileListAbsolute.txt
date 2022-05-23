@@ -1,0 +1,15 @@
+E:\Hotel\Hotel.BLL\bin\Debug\net5.0\Hotel.BLL.deps.json
+E:\Hotel\Hotel.BLL\bin\Debug\net5.0\Hotel.BLL.dll
+E:\Hotel\Hotel.BLL\bin\Debug\net5.0\ref\Hotel.BLL.dll
+E:\Hotel\Hotel.BLL\bin\Debug\net5.0\Hotel.BLL.pdb
+E:\Hotel\Hotel.BLL\bin\Debug\net5.0\Hotel.DAL.dll
+E:\Hotel\Hotel.BLL\bin\Debug\net5.0\Hotel.DAL.pdb
+E:\Hotel\Hotel.BLL\obj\Debug\net5.0\Hotel.BLL.csproj.AssemblyReference.cache
+E:\Hotel\Hotel.BLL\obj\Debug\net5.0\Hotel.BLL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Hotel\Hotel.BLL\obj\Debug\net5.0\Hotel.BLL.AssemblyInfoInputs.cache
+E:\Hotel\Hotel.BLL\obj\Debug\net5.0\Hotel.BLL.AssemblyInfo.cs
+E:\Hotel\Hotel.BLL\obj\Debug\net5.0\Hotel.BLL.csproj.CoreCompileInputs.cache
+E:\Hotel\Hotel.BLL\obj\Debug\net5.0\Hotel.BLL.csproj.CopyComplete
+E:\Hotel\Hotel.BLL\obj\Debug\net5.0\Hotel.BLL.dll
+E:\Hotel\Hotel.BLL\obj\Debug\net5.0\ref\Hotel.BLL.dll
+E:\Hotel\Hotel.BLL\obj\Debug\net5.0\Hotel.BLL.pdb
