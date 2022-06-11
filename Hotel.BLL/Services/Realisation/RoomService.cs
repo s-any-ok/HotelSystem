@@ -20,9 +20,11 @@ namespace Hotel.BLL.Services.Realisation
         
         public Room<int> CreateRoom(Room<int> room)
         {
-            _unitOfWork.RoomRepository.Create(room.ToDbEntity());
+            var entityEntry = _unitOfWork.RoomRepository.Create(room.ToDbEntity());
             _unitOfWork.Save();
-            var result = _unitOfWork.RoomRepository.GetById(room.Id).ToModelEntity();
+            
+            var roomEntity = _unitOfWork.RoomRepository.GetById(entityEntry.Entity.Id);
+            var result = roomEntity.ToModelEntity();
             return result;
         }
         

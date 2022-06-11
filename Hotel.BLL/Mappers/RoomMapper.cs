@@ -9,6 +9,7 @@ namespace Hotel.BLL.Mappers
         {
             var roomModelEntity = new Room<int>()
             {
+                Id = roomEntity.Id,
                 Name = roomEntity.Name,
                 Information = roomEntity.Information
             };
@@ -20,9 +21,9 @@ namespace Hotel.BLL.Mappers
         {
             var roomEntity = new RoomEntity()
             {
-                Id = roomModelEntity.Id,
                 Name = roomModelEntity.Name,
-                Information = roomModelEntity.Information
+                Information = roomModelEntity.Information,
+                CategoryId = roomModelEntity.CategoryId,
             };
 
             return roomEntity;

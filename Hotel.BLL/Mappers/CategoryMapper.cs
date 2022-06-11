@@ -21,7 +21,6 @@ namespace Hotel.BLL.Mappers
         {
             var userEntity = new CategoryEntity()
             {
-                Id = category.Id,
                 Name = category.Name,
                 Price = category.Price,
             };

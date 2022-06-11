@@ -20,9 +20,11 @@ namespace Hotel.BLL.Services.Realisation
 
         public Reservation<int> CreateReservation(Reservation<int> reservation)
         {
-            _unitOfWork.ReservationRepository.Create(reservation.ToDbEntity());
+            var entityEntry = _unitOfWork.ReservationRepository.Create(reservation.ToDbEntity());
             _unitOfWork.Save();
-            var result = _unitOfWork.ReservationRepository.GetById(reservation.Id).ToModelEntity();
+
+            var reservationEntity = _unitOfWork.ReservationRepository.GetById(entityEntry.Entity.Id);
+            var result = reservationEntity.ToModelEntity();
             return result;
         }
         

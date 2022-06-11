@@ -9,6 +9,7 @@ namespace Hotel.BLL.Mappers
         {
             var user = new User<int>()
             {
+                Id = userEntity.Id,
                 Age = userEntity.Age,
                 Name = userEntity.Name,
                 LastName = userEntity.LastName,
@@ -23,7 +24,6 @@ namespace Hotel.BLL.Mappers
         {
             var userEntity = new UserEntity()
             {
-                Id = user.Id,
                 Age = user.Age,
                 Name = user.Name,
                 LastName = user.LastName,

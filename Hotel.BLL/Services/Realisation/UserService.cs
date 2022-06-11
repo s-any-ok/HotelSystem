@@ -19,10 +19,12 @@ namespace Hotel.BLL.Services.Realisation
         
         public User<int> CreateUser(User<int> user)
         {
-            _unitOfWork.UserRepository.Create(user.ToDbEntity());
+            var entityEntry = _unitOfWork.UserRepository.Create(user.ToDbEntity());
             _unitOfWork.Save();
-            var result = _unitOfWork.UserRepository.GetById(user.Id).ToModelEntity();
-            return user;
+
+            var userEntity = _unitOfWork.UserRepository.GetById(entityEntry.Entity.Id);
+            var result = userEntity.ToModelEntity();
+            return result;
         }
         
         public IEnumerable<User<int>> GetAll()

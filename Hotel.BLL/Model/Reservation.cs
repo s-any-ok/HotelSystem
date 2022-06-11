@@ -10,5 +10,9 @@ namespace Hotel.BLL.Model
 
         public int Duration { get; set; } // in minutes
         public DateTime StartTime { get; set; }
+        
+        public User<TKey> User { get; set; }
+        
+        public Room<TKey> Room { get; set; }
     }
 }

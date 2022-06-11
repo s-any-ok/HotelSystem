@@ -1,11 +1,12 @@
 ﻿using Hotel.DAL.Entities;
 using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
 
 namespace Hotel.DAL.Repositories.Abstraction
 {
     public interface IRepository<T, KId> where T : BaseEntity<KId>
     {
-        void Create(T item);
+        EntityEntry<T> Create(T item);
         T GetById(KId id);
         IEnumerable<T> GetAll();
         void Delete(T item);

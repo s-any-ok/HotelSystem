@@ -7,57 +7,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8fc0ed61-3fae-446e-aab9-fc9e5edc7e3d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Hotel.API/Controllers/CategoryController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hotel.API/Controllers/ReservationController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hotel.API/Controllers/RoomController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hotel.API/Model/Commands/Category/AddRoomCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hotel.API/Model/Commands/Reservation/AddReservationCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hotel.API/Model/Commands/Reservation/CancelReservationCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hotel.API/Model/Commands/Room/AddRoomCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hotel.API/Model/Commands/Room/GetRoomsInPeriodCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hotel.API/Model/Commands/User/AddUserCommand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hotel.API/Model/Response/Category/CategoryResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hotel.API/Model/Response/Category/CategorysResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hotel.API/Model/Response/Reservation/ReservationResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hotel.API/Model/Response/Reservation/ReservationsResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hotel.API/Model/Response/Room/RoomResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hotel.API/Model/Response/Room/RoomsResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hotel.API/Model/Response/User/UserResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hotel.API/Model/Response/User/UsersResponse.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hotel.BLL/Mappers/CategoryMapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hotel.BLL/Mappers/RoomMapper.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hotel.BLL/Model/Category.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hotel.BLL/Services/Abstraction/ICategoryService.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hotel.BLL/Services/Realisation/CategoryService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Hotel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hotel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Hotel/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Hotel/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Hotel/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Hotel/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel.API/Controllers/UsersController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.API/Controllers/UsersController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel.API/Properties/launchSettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.API/Properties/launchSettings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel.API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.API/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hotel.API/bin/Debug/net5.0/Hotel.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.API/bin/Debug/net5.0/Hotel.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hotel.API/bin/Debug/net5.0/Hotel.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.API/bin/Debug/net5.0/Hotel.API.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hotel.API/bin/Debug/net5.0/Hotel.BLL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.API/bin/Debug/net5.0/Hotel.BLL.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hotel.API/bin/Debug/net5.0/Hotel.BLL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.API/bin/Debug/net5.0/Hotel.BLL.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hotel.API/bin/Debug/net5.0/Hotel.DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.API/bin/Debug/net5.0/Hotel.DAL.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hotel.API/bin/Debug/net5.0/Hotel.DAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.API/bin/Debug/net5.0/Hotel.DAL.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel.API/bin/Debug/net5.0/ref/Hotel.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.API/bin/Debug/net5.0/ref/Hotel.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hotel.API/obj/Debug/net5.0/Hotel.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.API/obj/Debug/net5.0/Hotel.API.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel.API/obj/Debug/net5.0/Hotel.API.csproj.CopyComplete" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel.API/obj/Debug/net5.0/Hotel.API.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.API/obj/Debug/net5.0/Hotel.API.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel.API/obj/Debug/net5.0/Hotel.API.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.API/obj/Debug/net5.0/Hotel.API.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hotel.API/obj/Debug/net5.0/Hotel.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.API/obj/Debug/net5.0/Hotel.API.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hotel.API/obj/Debug/net5.0/Hotel.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.API/obj/Debug/net5.0/Hotel.API.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel.API/obj/Debug/net5.0/ref/Hotel.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.API/obj/Debug/net5.0/ref/Hotel.API.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel.BLL/DependenciesServices.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.BLL/DependenciesServices.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hotel.BLL/Mappers/CategoryMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.BLL/Mappers/CategoryMapper.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hotel.BLL/Mappers/ReservationMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.BLL/Mappers/ReservationMapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hotel.BLL/Mappers/RoomMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.BLL/Mappers/RoomMapper.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hotel.BLL/Mappers/UserMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.BLL/Mappers/UserMapper.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hotel.BLL/Model/Reservation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.BLL/Model/Reservation.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hotel.BLL/Model/Room.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.BLL/Model/Room.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel.BLL/Model/User.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.BLL/Model/User.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel.BLL/Services/Abstraction/IReservationService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.BLL/Services/Abstraction/IReservationService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel.BLL/Services/Abstraction/IRoomService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.BLL/Services/Abstraction/IRoomService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel.BLL/Services/Abstraction/IUserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.BLL/Services/Abstraction/IUserService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hotel.BLL/Services/Realisation/CategoryService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.BLL/Services/Realisation/CategoryService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hotel.BLL/Services/Realisation/ReservationService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.BLL/Services/Realisation/ReservationService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hotel.BLL/Services/Realisation/RoomService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.BLL/Services/Realisation/RoomService.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hotel.BLL/Services/Realisation/UserService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.BLL/Services/Realisation/UserService.cs" afterDir="false" />
@@ -67,29 +33,15 @@
       <change beforePath="$PROJECT_DIR$/Hotel.BLL/bin/Debug/net5.0/Hotel.DAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.BLL/bin/Debug/net5.0/Hotel.DAL.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hotel.BLL/bin/Debug/net5.0/ref/Hotel.BLL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.BLL/bin/Debug/net5.0/ref/Hotel.BLL.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hotel.BLL/obj/Debug/net5.0/Hotel.BLL.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.BLL/obj/Debug/net5.0/Hotel.BLL.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel.BLL/obj/Debug/net5.0/Hotel.BLL.csproj.CopyComplete" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel.BLL/obj/Debug/net5.0/Hotel.BLL.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.BLL/obj/Debug/net5.0/Hotel.BLL.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel.BLL/obj/Debug/net5.0/Hotel.BLL.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.BLL/obj/Debug/net5.0/Hotel.BLL.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hotel.BLL/obj/Debug/net5.0/Hotel.BLL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.BLL/obj/Debug/net5.0/Hotel.BLL.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hotel.BLL/obj/Debug/net5.0/Hotel.BLL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.BLL/obj/Debug/net5.0/Hotel.BLL.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hotel.BLL/obj/Debug/net5.0/ref/Hotel.BLL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.BLL/obj/Debug/net5.0/ref/Hotel.BLL.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel.DAL/DependenciesEFData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.DAL/DependenciesEFData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel.DAL/Entities/CategoryEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.DAL/Entities/CategoryEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel.DAL/Entities/RoomEntity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.DAL/Entities/RoomEntity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel.DAL/Entities/StatusEntity.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel.DAL/HotelContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.DAL/HotelContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel.DAL/Migrations/HotelContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.DAL/Migrations/HotelContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel.DAL/Repositories/Abstraction/IReservationRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.DAL/Repositories/Abstraction/IReservationRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel.DAL/Repositories/Abstraction/IStatusRepository.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hotel.DAL/Repositories/Abstraction/IRepositoty.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.DAL/Repositories/Abstraction/IRepositoty.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hotel.DAL/Repositories/Realisation/EFRealisation/EFGenericRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.DAL/Repositories/Realisation/EFRealisation/EFGenericRepository.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hotel.DAL/Repositories/Realisation/EFRealisation/EFReservationRepository.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.DAL/Repositories/Realisation/EFRealisation/EFReservationRepository.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel.DAL/Repositories/Realisation/EFRealisation/EFStatusRepository.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel.DAL/UnitOfWork/Abstraction/IUnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.DAL/UnitOfWork/Abstraction/IUnitOfWork.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel.DAL/UnitOfWork/Realisation/EFRealisation/EFUnitOfWork.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.DAL/UnitOfWork/Realisation/EFRealisation/EFUnitOfWork.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hotel.DAL/bin/Debug/net5.0/Hotel.DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.DAL/bin/Debug/net5.0/Hotel.DAL.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hotel.DAL/bin/Debug/net5.0/Hotel.DAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.DAL/bin/Debug/net5.0/Hotel.DAL.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hotel.DAL/bin/Debug/net5.0/ref/Hotel.DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.DAL/bin/Debug/net5.0/ref/Hotel.DAL.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel.DAL/obj/Debug/net5.0/Hotel.DAL.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.DAL/obj/Debug/net5.0/Hotel.DAL.csproj.AssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hotel.DAL/obj/Debug/net5.0/Hotel.DAL.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.DAL/obj/Debug/net5.0/Hotel.DAL.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hotel.DAL/obj/Debug/net5.0/Hotel.DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.DAL/obj/Debug/net5.0/Hotel.DAL.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hotel.DAL/obj/Debug/net5.0/Hotel.DAL.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.DAL/obj/Debug/net5.0/Hotel.DAL.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hotel.DAL/obj/Debug/net5.0/ref/Hotel.DAL.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Hotel.DAL/obj/Debug/net5.0/ref/Hotel.DAL.dll" afterDir="false" />
@@ -110,6 +62,11 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/eb5dc1d3d15f4495bfbbf3bce7a5ec631bfb88/74/DbSet.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/eb5dc1d3d15f4495bfbbf3bce7a5ec631bfb88/bb/aaac218b/DbSet`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/53c13ae0c80f4b2784ab381628f2ecf7133188/83/88e3ae03/SingleQueryingEnumerable`1.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="29Ycg1RdMK952mACue1LsBznGrl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -117,6 +74,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34994584" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.0" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -181,8 +140,18 @@
       <workItem from="1653293577415" duration="134000" />
       <workItem from="1654463750460" duration="3583000" />
       <workItem from="1654950590944" duration="10426000" />
-      <workItem from="1654967798514" duration="312000" />
+      <workItem from="1654967798514" duration="5619000" />
+      <workItem from="1654975875604" duration="1378000" />
+      <workItem from="1654977857423" duration="2717000" />
     </task>
+    <task id="LOCAL-00001" summary="Update database (remove status) and Services, add Controllers.">
+      <created>1654968328700</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1654968328700</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,5 +174,73 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Update database (remove status) and Services, add Controllers." />
+    <option name="LAST_COMMIT_MESSAGE" value="Update database (remove status) and Services, add Controllers." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Hotel.API/Controllers/CategoryController.cs</url>
+          <line>31</line>
+          <properties documentPath="E:\Hotel\Hotel.API\Controllers\CategoryController.cs" initialLine="31" containingFunctionPresentation="method 'AddCategory'">
+            <startOffsets>
+              <option value="1055" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1118" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Hotel.BLL/Services/Realisation/RoomService.cs</url>
+          <line>52</line>
+          <properties documentPath="E:\Hotel\Hotel.BLL\Services\Realisation\RoomService.cs" initialLine="52" containingFunctionPresentation="method 'GetFreeRoomsInPeriod'">
+            <startOffsets>
+              <option value="1641" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1655" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Hotel.DAL/Repositories/Realisation/EFRealisation/EFReservationRepository.cs</url>
+          <line>37</line>
+          <properties documentPath="E:\Hotel\Hotel.DAL\Repositories\Realisation\EFRealisation\EFReservationRepository.cs" initialLine="37" containingFunctionPresentation="method 'GetReservedRoomsInPeriod'">
+            <startOffsets>
+              <option value="1448" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1468" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Hotel.DAL/Repositories/Realisation/EFRealisation/EFReservationRepository.cs</url>
+          <line>28</line>
+          <properties documentPath="E:\Hotel\Hotel.DAL\Repositories\Realisation\EFRealisation\EFReservationRepository.cs" initialLine="28" containingFunctionPresentation="lambda expression inside method 'GetReservedRoomsInPeriod'">
+            <startOffsets>
+              <option value="1114" />
+              <option value="1154" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1153" />
+              <option value="1167" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="Type#Hotel.DAL.Repositories.Realisation.EFRealisation.EFGenericRepository`2" memberName="_dbContext" />
+        <PinnedItemInfo parentTag="Type#Hotel.DAL.Repositories.Realisation.EFRealisation.EFGenericRepository`2" memberName="_entities" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>

@@ -2,6 +2,7 @@
 using Hotel.DAL.Repositories.Abstraction;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
 
 namespace Hotel.DAL.Repositories.Realisation.EFRealisation
 {
@@ -16,9 +17,9 @@ namespace Hotel.DAL.Repositories.Realisation.EFRealisation
             _entities = dbSet;
         }
 
-        public void Create(T entity)
+        public EntityEntry<T> Create(T entity)
         {
-            _entities.Add(entity);
+            return _entities.Add(entity);
         }
 
         public void Update(T entity)
@@ -31,12 +32,12 @@ namespace Hotel.DAL.Repositories.Realisation.EFRealisation
             _entities.Remove(entity);
         }
 
-        public T GetById(KId id)
+        public virtual T GetById(KId id)
         {
             return _entities.Find(id);
         }
 
-        public IEnumerable<T> GetAll()
+        public virtual IEnumerable<T> GetAll()
         {
             return _entities.AsNoTracking();
         }

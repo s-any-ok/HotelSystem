@@ -19,9 +19,11 @@ namespace Hotel.BLL.Services.Realisation
         
         public Category<int> CreateCategory(Category<int> category)
         {
-            _unitOfWork.CategoryRepository.Create(category.ToDbEntity());
+            var entityEntry = _unitOfWork.CategoryRepository.Create(category.ToDbEntity());
             _unitOfWork.Save();
-            var result = _unitOfWork.CategoryRepository.GetById(category.Id).ToModelEntity();
+            
+            var categoryEntity = _unitOfWork.CategoryRepository.GetById(entityEntry.Entity.Id);
+            var result = categoryEntity.ToModelEntity();
             return result;
         }
         

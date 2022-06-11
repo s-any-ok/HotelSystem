@@ -11,7 +11,9 @@ namespace Hotel.BLL.Mappers
             {
                 Id = reservationEntity.Id,
                 Duration = reservationEntity.Duration,
-                StartTime = reservationEntity .StartTime
+                StartTime = reservationEntity.StartTime,
+                Room = reservationEntity.Room.ToModelEntity(),
+                User = reservationEntity.User.ToModelEntity(),
             };
 
             return reservationModelEntity;
@@ -21,9 +23,10 @@ namespace Hotel.BLL.Mappers
         {
             var reservationEntity = new ReservationEntity()
             {
-                Id = reservationModelEntity.Id,
                 Duration = reservationModelEntity.Duration,
-                StartTime = reservationModelEntity.StartTime
+                StartTime = reservationModelEntity.StartTime,
+                RoomId = reservationModelEntity.RoomId,
+                UserId = reservationModelEntity.UserId,
             };
 
             return reservationEntity;
