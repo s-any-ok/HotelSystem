@@ -32,6 +32,9 @@ namespace Hotel.DAL.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("text");
 
+                    b.Property<decimal>("Price")
+                        .HasColumnType("numeric");
+
                     b.HasKey("Id");
 
                     b.ToTable("Categories");
@@ -87,34 +90,11 @@ namespace Hotel.DAL.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("text");
 
-                    b.Property<int>("StatusId")
-                        .HasColumnType("integer");
-
                     b.HasKey("Id");
 
                     b.HasIndex("CategoryId");
 
-                    b.HasIndex("StatusId");
-
                     b.ToTable("Rooms");
-                });
-
-            modelBuilder.Entity("Hotel.DAL.Entities.StatusEntity", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer")
-                        .HasAnnotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn);
-
-                    b.Property<DateTime>("CreatedData")
-                        .HasColumnType("timestamp without time zone");
-
-                    b.Property<string>("Name")
-                        .HasColumnType("text");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Statuses");
                 });
 
             modelBuilder.Entity("Hotel.DAL.Entities.UserEntity", b =>
@@ -174,15 +154,7 @@ namespace Hotel.DAL.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Hotel.DAL.Entities.StatusEntity", "Status")
-                        .WithMany("Rooms")
-                        .HasForeignKey("StatusId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
                     b.Navigation("Category");
-
-                    b.Navigation("Status");
                 });
 
             modelBuilder.Entity("Hotel.DAL.Entities.CategoryEntity", b =>
@@ -193,11 +165,6 @@ namespace Hotel.DAL.Migrations
             modelBuilder.Entity("Hotel.DAL.Entities.RoomEntity", b =>
                 {
                     b.Navigation("Reservations");
-                });
-
-            modelBuilder.Entity("Hotel.DAL.Entities.StatusEntity", b =>
-                {
-                    b.Navigation("Rooms");
                 });
 
             modelBuilder.Entity("Hotel.DAL.Entities.UserEntity", b =>

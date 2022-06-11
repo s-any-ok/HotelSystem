@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "Faroosom.API": {
+    "Hotel.API": {
       "commandName": "Project",
       "dotnetRunMessages": "true",
       "launchBrowser": true,

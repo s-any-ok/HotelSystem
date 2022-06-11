@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace Hotel.DAL.Entities
+﻿namespace Hotel.BLL.Model
 {
     public class User<TKey>
     {

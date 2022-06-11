@@ -9,22 +9,19 @@ namespace Hotel.DAL.UnitOfWork.Realisation.EFRealisation
         private HotelContext _dbContext;
 
         public EFUnitOfWork(HotelContext dbContext,
-            IUserRepository userRepository, IRoomRepository roomRepository, IReservationRepository reservationRepository,
-            IStatusRepository statusRepository, ICategoryRepository categoryRepository)
+            IUserRepository userRepository, IRoomRepository roomRepository, IReservationRepository reservationRepository, ICategoryRepository categoryRepository)
         {
             _dbContext = dbContext;
 
             UserRepository = userRepository;
             RoomRepository = roomRepository;
             ReservationRepository = reservationRepository;
-            StatusRepository = statusRepository;
             CategoryRepository = categoryRepository;
         }
 
         public IUserRepository UserRepository { get; set; }
         public IRoomRepository RoomRepository { get; set; }
         public IReservationRepository ReservationRepository { get; set; }
-        public IStatusRepository StatusRepository { get; set; }
         public ICategoryRepository CategoryRepository { get; set; }
 
         ~EFUnitOfWork()

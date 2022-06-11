@@ -11,6 +11,7 @@ namespace Hotel.BLL
             services.AddScoped<IUserService<int>, UserService>();
             services.AddScoped<IReservationService<int>, ReservationService>();
             services.AddScoped<IRoomService<int>, RoomService>();
+            services.AddScoped<ICategoryService<int>, CategoryService>();
             return services;
         }
     }

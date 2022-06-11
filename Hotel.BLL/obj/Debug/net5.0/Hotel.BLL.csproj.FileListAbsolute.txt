@@ -9,7 +9,6 @@ E:\Hotel\Hotel.BLL\obj\Debug\net5.0\Hotel.BLL.GeneratedMSBuildEditorConfig.edito
 E:\Hotel\Hotel.BLL\obj\Debug\net5.0\Hotel.BLL.AssemblyInfoInputs.cache
 E:\Hotel\Hotel.BLL\obj\Debug\net5.0\Hotel.BLL.AssemblyInfo.cs
 E:\Hotel\Hotel.BLL\obj\Debug\net5.0\Hotel.BLL.csproj.CoreCompileInputs.cache
-E:\Hotel\Hotel.BLL\obj\Debug\net5.0\Hotel.BLL.csproj.CopyComplete
 E:\Hotel\Hotel.BLL\obj\Debug\net5.0\Hotel.BLL.dll
 E:\Hotel\Hotel.BLL\obj\Debug\net5.0\ref\Hotel.BLL.dll
 E:\Hotel\Hotel.BLL\obj\Debug\net5.0\Hotel.BLL.pdb

@@ -8,9 +8,6 @@ namespace Hotel.DAL.Entities
         public string Name { get; set; }
         public string Information { get; set; }
 
-        public int StatusId { get; set; }
-        public virtual StatusEntity Status { get; set; }
-
         public int CategoryId { get; set; }
         public virtual CategoryEntity Category { get; set; }
 

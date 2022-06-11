@@ -1,4 +1,5 @@
-﻿using Hotel.DAL.Entities;
+﻿using Hotel.BLL.Model;
+using Hotel.DAL.Entities;
 
 namespace Hotel.BLL.Mappers
 {
@@ -8,7 +9,6 @@ namespace Hotel.BLL.Mappers
         {
             var user = new User<int>()
             {
-                Id = userEntity.Id,
                 Age = userEntity.Age,
                 Name = userEntity.Name,
                 LastName = userEntity.LastName,

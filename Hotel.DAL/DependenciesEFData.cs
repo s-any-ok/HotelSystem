@@ -15,7 +15,6 @@ namespace Hotel.DAL
             services.AddScoped<ICategoryRepository, EFCategoryRepository>();
             services.AddScoped<IReservationRepository, EFReservationRepository>();
             services.AddScoped<IRoomRepository, EFRoomRepository>();
-            services.AddScoped<IStatusRepository, EFStatusRepository>();
             services.AddScoped<IUnitOfWork, EFUnitOfWork>();
             return services;
         }

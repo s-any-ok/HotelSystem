@@ -1,4 +1,5 @@
-﻿using Hotel.DAL.Entities;
+﻿using Hotel.BLL.Model;
+using Hotel.DAL.Entities;
 
 namespace Hotel.BLL.Mappers
 {
@@ -16,7 +17,7 @@ namespace Hotel.BLL.Mappers
             return reservationModelEntity;
         }
 
-        public static ReservationEntity ToDbntity(this Reservation<int> reservationModelEntity)
+        public static ReservationEntity ToDbEntity(this Reservation<int> reservationModelEntity)
         {
             var reservationEntity = new ReservationEntity()
             {

@@ -1,10 +1,9 @@
 ﻿using Hotel.BLL.Services.Abstraction;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Security.Authentication;
-using System.Threading.Tasks;
+using System.Linq;
+using Hotel.API.Model.Commands.User;
+using Hotel.API.Model.Response.User;
 
 namespace Hotel.API.Controllers
 {
@@ -18,20 +17,20 @@ namespace Hotel.API.Controllers
             _userService = userService;
         }
 
-        /*[HttpGet]
-        [ProducesResponseType(typeof(BasketResponse), StatusCodes.Status200OK)]
-        public IActionResult GetBasketById([FromQuery] GetBasketCommand command)
+        [HttpGet]
+        [ProducesResponseType(typeof(UsersResponse), StatusCodes.Status200OK)]
+        public IActionResult GetAll()
         {
-            var result = _basketService.GetBasketById(command.BasketId);
-            return Ok(new BasketResponse() { Basket = result });
+            var result = _userService.GetAll().ToList();
+            return Ok(new UsersResponse() { Users = result });
         }
 
         [HttpPost]
-        [ProducesResponseType(typeof(BasketResponse), StatusCodes.Status200OK)]
-        public IActionResult AddBasket([FromBody] AddBasketCommand command)
+        [ProducesResponseType(typeof(UserResponse), StatusCodes.Status200OK)]
+        public IActionResult AddUser([FromBody] AddUserCommand command)
         {
-            var result = _basketService.CreateBasket(command.UserName);
-            return Ok(new BasketResponse() { Basket = result });
-        }*/
+            var result = _userService.CreateUser(command.User);
+            return Ok(new UserResponse() { User = result });
+        }
     }
 }

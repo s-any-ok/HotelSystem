@@ -8,7 +8,6 @@ namespace Hotel.DAL
         public virtual DbSet<UserEntity> Users { get; set; }
         public virtual DbSet<ReservationEntity> Reservations { get; set; }
         public virtual DbSet<RoomEntity> Rooms { get; set; }
-        public virtual DbSet<StatusEntity> Statuses { get; set; }
         public virtual DbSet<CategoryEntity> Categories { get; set; }
 
         public HotelContext(DbContextOptions<HotelContext> options) : base(options)

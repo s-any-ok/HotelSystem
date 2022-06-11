@@ -1,4 +1,7 @@
-﻿using Hotel.BLL.Mappers;
+﻿using System.Collections.Generic;
+using System.Linq;
+using Hotel.BLL.Mappers;
+using Hotel.BLL.Model;
 using Hotel.BLL.Services.Abstraction;
 using Hotel.DAL.Entities;
 using Hotel.DAL.UnitOfWork.Abstraction;
@@ -17,10 +20,25 @@ namespace Hotel.BLL.Services.Realisation
 
         public Reservation<int> CreateReservation(Reservation<int> reservation)
         {
-            _unitOfWork.ReservationRepository.Create(reservation.ToDbntity());
+            _unitOfWork.ReservationRepository.Create(reservation.ToDbEntity());
             _unitOfWork.Save();
             var result = _unitOfWork.ReservationRepository.GetById(reservation.Id).ToModelEntity();
             return result;
         }
+        
+        public IEnumerable<Reservation<int>> GetAll()
+        {
+            var result = _unitOfWork
+                .ReservationRepository
+                .GetAll()
+                .Select(r => r.ToModelEntity());
+            return result;
+        }
+        
+        public void DeleteReservations(int id)
+        {
+             _unitOfWork.ReservationRepository.DeleteById(id);
+        }
+        
     }
 }

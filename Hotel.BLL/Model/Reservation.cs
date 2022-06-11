@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Hotel.DAL.Entities
+namespace Hotel.BLL.Model
 {
     public class Reservation<TKey>
     {
@@ -9,7 +9,6 @@ namespace Hotel.DAL.Entities
         public TKey RoomId { get; set; }
 
         public int Duration { get; set; } // in minutes
-
         public DateTime StartTime { get; set; }
     }
 }

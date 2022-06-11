@@ -62,7 +62,6 @@ E:\Hotel\Hotel.API\obj\Debug\net5.0\staticwebassets\Hotel.API.StaticWebAssets.Ma
 E:\Hotel\Hotel.API\obj\Debug\net5.0\staticwebassets\Hotel.API.StaticWebAssets.xml
 E:\Hotel\Hotel.API\obj\Debug\net5.0\scopedcss\bundle\Hotel.API.styles.css
 E:\Hotel\Hotel.API\obj\Debug\net5.0\Hotel.API.RazorTargetAssemblyInfo.cache
-E:\Hotel\Hotel.API\obj\Debug\net5.0\Hotel.API.csproj.CopyComplete
 E:\Hotel\Hotel.API\obj\Debug\net5.0\Hotel.API.dll
 E:\Hotel\Hotel.API\obj\Debug\net5.0\ref\Hotel.API.dll
 E:\Hotel\Hotel.API\obj\Debug\net5.0\Hotel.API.pdb
